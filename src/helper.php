@@ -17,7 +17,7 @@ use think\facade\Log;
  */
 function injectThinkLoggerToWechatApp($app)
 {
-    if (!config('wechat.injectThinkLogger')) {
+    if (!config('wechat.inject_think_logger')) {
         return;
     }
     // 注册自定义日志驱动
