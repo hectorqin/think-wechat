@@ -1,0 +1,35 @@
+{
+    "name": "hectorqin/think-wechat",
+    "description": "EasyWechat For Thnkphp6.0",
+    "type": "think-extend",
+    "keywords": ["wechat", "weixin","easywechat","thinkphp","think", "sdk"],
+    "require": {
+        "php": ">=7.1.0",
+        "overtrue/wechat": "~4.0",
+        "topthink/framework": ">=5.1",
+        "psr/simple-cache": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "hectorqin",
+        "email": "hectorqin@163.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Hectorqin\\ThinkWechat\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Hectorqin\\ThinkWechat\\ThinkWechatService"
+            ],
+            "config":{
+                "wechat": "src/config.php"
+            }
+        }
+    }
+}
