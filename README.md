@@ -1,7 +1,5 @@
 # think-wechat
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhectorqin%2Fthink-wechat.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhectorqin%2Fthink-wechat?ref=badge_shield)
-
 微信SDK For ThinkPHP 5.1, ThinkPHP 6.0 基于[overtrue/wechat](https://github.com/overtrue/wechat)
 
 ## 框架要求
@@ -81,5 +79,3 @@ $officialAccount = Facade::officialAccount('',$config); // 公众号
 ## License
 
 MIT
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhectorqin%2Fthink-wechat.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhectorqin%2Fthink-wechat?ref=badge_large)
